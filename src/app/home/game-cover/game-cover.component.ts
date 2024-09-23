@@ -11,4 +11,5 @@ export class GameCoverComponent {
   @Input ()imgUrl: string= "";
   @Input ()titleCover: string="";
   @Input ()textCover: string="";
+  @Input() isLeft: boolean = true;
 }

@@ -31,9 +31,21 @@
     width: 56%;
     height: 282px;
     text-align: justify;
-    margin-left: 43px;
-    
+    position: absolute; 
 }
+
+/*las condiciones*/
+
+.left-side {
+    left: 0;  
+    margin-left: 38px;
+  }
+  
+  .right-side {
+    right: 0;  
+    margin-right: 38px;
+  }
+
 
 .cover-title{
     width: 100%;
