@@ -1,0 +1,20 @@
+.principal{
+    max-width: 100vw;
+   height: 46.8125em;
+    background-color: red;
+}
+
+.cover-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.cover-title{
+    color: #FFFFFF;
+}
+
+.cover-info{
+    color: #B4B1AF;
+    font-size: 30px;
+}
