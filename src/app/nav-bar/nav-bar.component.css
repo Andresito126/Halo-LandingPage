@@ -8,6 +8,7 @@
 }
 
 .navbar-menu{
+    max-width: 100%;
     display: flex; 
 }
 
@@ -16,8 +17,8 @@
     width: 100px;
     height: 114.43px;
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     transition: transform 0.2s ease;
 }
 
@@ -25,17 +26,17 @@
     width: 200px;
     height: 127.66px;
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     transition: transform 0.2s ease;
 }
 
 .navbar-item:hover,
 .navbar-itemhome:hover {
-    transform: scale(1.3); 
+    transform: scale(1.2); 
 }
 
-img{
+.navbar-img{
     width: 100%;
     height: 100%;
     object-fit: cover; 
