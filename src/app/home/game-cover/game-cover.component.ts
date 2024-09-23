@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-game-cover',
@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class GameCoverComponent {
 
+  //estos seran los datos que se andaran reemplazando entre si, con ayuda del input 
+  @Input ()imgUrl: string= "";
+  @Input ()titleCover: string="";
+  @Input ()textCover: string="";
 }
