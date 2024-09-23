@@ -1,5 +1,5 @@
 .section-aboutgame {
-    width: 100vw;
+    max-width: 100vw;
     height: 21.25em;
     background-color: #0F0E18;
     display: flex;
