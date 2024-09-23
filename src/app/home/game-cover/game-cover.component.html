@@ -1,0 +1,15 @@
+<div class="principal">
+  <div class="cover-img">
+    <!-- aca se pasan los datossssssssssssss -->
+    <img src={{imgUrl}} alt="">
+    <!-- condicional -->
+    <div class="cover-main" [ngClass]="{'left-side': isLeft, 'right-side': !isLeft}">
+      <div class="cover-title">
+        <h2>{{titleCover}}</h2>
+      </div>
+      <div class="cover-info">
+        <p class="">{{textCover}}</p>
+      </div>
+    </div>
+  </div>
+</div>
