@@ -7,13 +7,11 @@ import { AboutGameComponent } from './about-game/about-game.component';
 
 @NgModule({
   declarations: [
-   
-  
     HomePComponent,
     AboutGameComponent
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+  ],
 })
 export class HomeModule { }
