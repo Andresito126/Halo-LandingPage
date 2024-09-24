@@ -6,6 +6,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { GalleryModule } from './gallery/gallery.module';
+import { HistoryModule } from './history/history.module';
+
 
 
 
@@ -14,6 +16,7 @@ import { GalleryModule } from './gallery/gallery.module';
     AppComponent,
     NavBarComponent,
     FooterComponent,
+   
 
 
   ],
@@ -21,7 +24,8 @@ import { GalleryModule } from './gallery/gallery.module';
     BrowserModule,
     AppRoutingModule,
     HomeModule,
-    GalleryModule
+    GalleryModule,
+    HistoryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
