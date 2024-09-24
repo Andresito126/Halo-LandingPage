@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
+import { GalleryModule } from './gallery/gallery.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HomeModule } from './home/home.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    GalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
