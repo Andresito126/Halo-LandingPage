@@ -8,11 +8,13 @@ import { HomeModule } from './home/home.module';
 import { GalleryModule } from './gallery/gallery.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
+
 
   ],
   imports: [

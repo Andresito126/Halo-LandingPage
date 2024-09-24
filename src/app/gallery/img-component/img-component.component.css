@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'HaloOutline'; 
+    src: url('../../../fonts/Halo.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+.principal-div {
+    display: flex; 
+    width: 100%; 
+}
+
+.principal-div1, .principal-div2 {
+    width: 770px; 
+    height: 508px;
+}
+
+.principal-title {
+    width: 100%; 
+    height: 80px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #0F1419; 
+}
+
+.principal-title_text {
+    color: #FFFFFF;
+    background-color: #0F1419;  
+    font-family: 'Halo', sans-serif; 
+    font-size: 40px;
+    margin: 0; 
+}
+
+.container-img {
+    width: 100%;
+    height: calc(508px - 80px); 
+    position: relative; 
+}
+
+.principal-img {
+    position: absolute;   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+    z-index: -1;
+}
