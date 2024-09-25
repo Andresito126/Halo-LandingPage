@@ -7,6 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { GalleryModule } from './gallery/gallery.module';
 import { HistoryModule } from './history/history.module';
+import { HistoryCardComponent } from './history-card/history-card.component';
 
 
 
@@ -16,6 +17,7 @@ import { HistoryModule } from './history/history.module';
     AppComponent,
     NavBarComponent,
     FooterComponent,
+    HistoryCardComponent,
    
 
 
