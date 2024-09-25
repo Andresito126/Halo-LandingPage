@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-history-card',
@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HistoryCardComponent {
 
+  @Input() texto1: string="";
+  @Input() imgUrl1: string="";
+  @Input() texto2: string="";
+  @Input() imgUrl2: string="";
 }

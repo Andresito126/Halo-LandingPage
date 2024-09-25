@@ -17,10 +17,6 @@ import { HistoryModule } from './history/history.module';
     AppComponent,
     NavBarComponent,
     FooterComponent,
-
-   
-
-
   ],
   imports: [
     BrowserModule,
