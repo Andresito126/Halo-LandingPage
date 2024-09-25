@@ -8,7 +8,7 @@
   .history-card_row {
     display: flex;
     width: 100%;
-    height: 270px; 
+    height: 541px; 
   }
   
   .history-card_text-1, .history-card_img-1,
@@ -20,17 +20,22 @@
   }
   
   .history-card_text-1, .history-card_text-2 {
-    background-color: aqua;
+    background-color: #0F1419;
   }
   
   .history-card_img-1, .history-card_img-2 {
-    background-color: green;
+    background-color: #0F1419;
+    object-fit: cover;
   }
   
-  .history-card_img-1 img, .history-card_img-2 img {
-    max-width: 100%;
-    height: auto;
-  }
+  .history-card_img-1, .history-card_img-2 {
+    background-color: #0F1419;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+
 
   .text__card{
     font-family: "Reem Kufi Ink", sans-serif;
@@ -38,7 +43,7 @@
     padding-right: 1%;
     font-style: normal;
     color: #B4B1AF;
-    font-size: 18px;
+    font-size: 22px;
     text-align: justify;
   }
   

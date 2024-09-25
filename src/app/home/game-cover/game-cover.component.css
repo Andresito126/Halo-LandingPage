@@ -91,3 +91,7 @@
 .cover-main:hover {
     transform: scale(1.1); 
 }
+
+.gallery-div{
+    background-color: #0F0E18;
+}

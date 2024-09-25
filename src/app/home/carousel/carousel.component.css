@@ -17,3 +17,19 @@
   object-fit: cover;
   display: inline-block; 
 }
+.gallery-div{
+  background-color: #0F0E18;
+  height: 60px;
+  display: flex;
+  justify-content: center; 
+ 
+  
+}
+
+.gallery-ref{
+  text-decoration: none;
+  color: white;
+  font-family: "Reem Kufi Ink", sans-serif;
+  font-size:  20px;
+  padding: .35cm;
+}
