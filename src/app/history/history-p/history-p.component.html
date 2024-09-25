@@ -1,0 +1,26 @@
+<div class="history-principal">
+  <app-first-info
+    [titulo]="story.title"
+    [sinopsis]="story.sinopsis"
+  ></app-first-info>
+
+  <app-carousel
+    [imgUrl1]="story.imagesCarousel1[0]"
+    [imgUrl2]="story.imagesCarousel1[1]"
+    [imgUrl3]="story.imagesCarousel1[2]"
+  ></app-carousel>
+  <app-history-card
+    [texto1]="story.cardText1"
+    [imgUrl1]="story.cardImage1"
+    [texto2]="story.cardText2"
+    [imgUrl2]="story.cardImage2"
+  ></app-history-card>
+  <app-carousel
+    [imgUrl1]="story.imagesCarousel2[0]"
+    [imgUrl2]="story.imagesCarousel2[1]"
+    [imgUrl3]="story.imagesCarousel2[2]"
+    [imgUrl4]="story.imagesCarousel2[3]"
+    [imgUrl5]="story.imagesCarousel2[4]"
+    [imgUrl6]="story.imagesCarousel2[5]"
+  ></app-carousel>
+</div>
