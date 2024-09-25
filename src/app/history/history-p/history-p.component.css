@@ -1,0 +1,15 @@
+.history-div_infol{
+    width: 100vw;
+    height:555px;
+}
+
+.history-title{
+    height:163px ;
+    width: 100%;
+    background-color: red;
+}
+.history-sinopsis{
+    width: 100%;
+    height: 392px;
+    background-color: aqua;
+}
