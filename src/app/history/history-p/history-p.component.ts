@@ -72,13 +72,13 @@ export class HistoryPComponent implements OnInit {
     { 
       id: 'haloInfinite', 
       title: 'HALO INFINITE', 
-      sinopsis: '', 
-      imagesCarousel1: ['Halo6/halo6.jpg','Halo6/halo6.jpg','Halo6/halo6.jpg','Halo6/halo6.jpg' ],
-      imagesCarousel2: ['Halo6/halo6.jpg','Halo6/halo6.jpg','Halo6/halo6.jpg','Halo6/halo6.jpg' ],
-      cardText1: 'Texto de tarjeta 1', 
-      cardImage1: 'Halo6/halo6.jpg', 
-      cardText2: 'Texto de tarjeta 2', 
-      cardImage2: 'Halo6/halo6.jpg',
+      sinopsis: 'Ha pasado 1 año y 2 meses después de los acontecimientos de Halo 5: Guardians. La UNSC Infinity fue invadida y atacada por fuerzas de los Desterrados cerca de la Instalación 07 (Zeta Halo) con el Jefe Maestro despejando una zona de evacuación para ser atacado y derrotado por Atriox, líder de los Desterrados, dejando al Jefe a la deriva en el espacio mientras que Fernando Esparza escapa en un Pelican. Esta entrega es la más reciente que 343 Industries ha desarrollado.', 
+      imagesCarousel1: ['Halo6/halo63.jpg','Halo6/halo65.jpg','Halo6/halo68.jpg','Halo6/halo66.jpg' ],
+      imagesCarousel2: ['Halo6/halo64.jpg','Halo6/halo67.jpg','Halo6/halo69.jpg','Halo6/halo610.jpg' ],
+      cardText1: 'En Halo Infinite, la historia comienza con el Jefe Maestro enfrentando una derrota a manos de Atriox, líder de los Desterrados. La UNSC Infinity es destruida, y el Jefe queda a la deriva en el espacio hasta ser rescatado por un piloto llamado Echo-216. Juntos, intentan desentrañar lo sucedido y detener a los Desterrados, que ahora controlan Zeta Halo, un anillo misterioso con un pasado complejo. A lo largo de la campaña, el Jefe Maestro descubre que Cortana, tras los eventos de Halo 5, fue destruida por los Desterrados. Sin embargo, sus acciones dejaron una marca profunda, ya que había intentado controlar la galaxia antes de su desaparición. Para enfrentarse a esta nueva amenaza, el Jefe es asistido por "El Arma", una IA diseñada para neutralizar a Cortana.', 
+      cardImage1: 'Halo6/halo62.webp', 
+      cardText2: 'El conflicto principal gira en torno al control de Zeta Halo y los planes de los Desterrados de usarlo como una superarma. El Jefe Maestro debe combatir a las fuerzas de Atriox, su sucesor Escharum, y los peligros del anillo, mientras busca respuestas sobre el verdadero propósito del halo y las amenazas que aún esconde. El Arma también cuestiona su propio papel y relación con el Jefe. La campaña concluye con la derrota de Escharum, pero deja muchas preguntas abiertas sobre el destino de Atriox y las intenciones de Zeta Halo. Aunque los Desterrados son temporalmente contenidos, el conflicto está lejos de terminar, y el Jefe Maestro, junto con el Arma y Echo-216, se prepara para enfrentar los desafíos que se avecinan en la galaxia.', 
+      cardImage2: 'HaloCe/haloce11.jpg',
     },
     
   ];
