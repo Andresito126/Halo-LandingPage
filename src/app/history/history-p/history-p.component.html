@@ -1,33 +1,23 @@
 <div class="history-principal">
-    <app-first-info
-    titulo="gggggggggggw"
-    sinopsis="owo"
-    ></app-first-info>
-    <app-carousel
-imgUrl1="Carrusel/carrusel1.jpg"
-imgUrl2="Carrusel/carrusel2.jpeg"
-imgUrl3="Carrusel/carrusel3.jpg"
-imgUrl4="Carrusel/carrusel4.jpg"
-imgUrl5="Carrusel/carrusel5.jpg"
-imgUrl6="Carrusel/carrusel6.jpg"
+  <app-first-info
+    [titulo]="story.title"
+    [sinopsis]="story.sinopsis"
+  ></app-first-info>
 
-></app-carousel>
-
-<app-history-card
-    texto1="eto1"
-    imgUrl1="eto1.com"
-    texto2="eto2"
-    imgUrl2="eto.com2"
-></app-history-card>
-    
-
-     <app-carousel
-imgUrl1="Carrusel/carrusel1.jpg"
-imgUrl2="Carrusel/carrusel2.jpeg"
-imgUrl3="Carrusel/carrusel3.jpg"
-imgUrl4="Carrusel/carrusel4.jpg"
-imgUrl5="Carrusel/carrusel5.jpg"
-imgUrl6="Carrusel/carrusel6.jpg"
-
-></app-carousel>
+  <app-carousel
+    [imgUrl1]="story.imagesCarousel1[0]"
+    [imgUrl2]="story.imagesCarousel1[1]"
+    [imgUrl3]="story.imagesCarousel1[2]"
+  ></app-carousel>
+  <app-history-card
+    [texto1]="story.cardText1"
+    [imgUrl1]="story.cardImage1"
+    [texto2]="story.cardText2"
+    [imgUrl2]="story.cardImage2"
+  ></app-history-card>
+  <app-carousel
+    [imgUrl1]="story.imagesCarousel2[0]"
+    [imgUrl2]="story.imagesCarousel2[1]"
+    [imgUrl3]="story.imagesCarousel2[2]"
+  ></app-carousel>
 </div>

@@ -7,7 +7,8 @@ import { HistoryPComponent } from './history/history-p/history-p.component';
 const routes: Routes = [
   { path: '', component: HomePComponent },
   {path:'gallery',component:GalleryPComponent},
-  {path:'history',component:HistoryPComponent}
+  {path:'history/:id',component:HistoryPComponent},
+
 ];
 
 @NgModule({
